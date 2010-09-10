@@ -12,6 +12,10 @@
     <groupId>vkode</groupId>
     <artifactId>vkode.mavenhell.scalaparent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <name>Scala parent ${project.groupId}:${project.artifactId}</name>
+    <description>
+        Still stuck in Maven hell? Who's your daddy.
+    </description>
     <repositories>
         <repository>
             <id>scala-tools.org</id>
