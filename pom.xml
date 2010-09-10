@@ -147,20 +147,4 @@
             </plugin>
         </plugins>
     </build>
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.scala-tools</groupId>
-                <artifactId>maven-scala-plugin</artifactId>
-                <version>${scalatools.version}</version>
-                <configuration>
-                    <sourceDir>src/main/java</sourceDir>
-                    <jvmArgs>
-                        <jvmArg>-Xms64m</jvmArg>
-                        <jvmArg>-Xmx1024m</jvmArg>
-                    </jvmArgs>
-                </configuration>
-            </plugin>
-        </plugins>
-    </reporting>
 </project>
